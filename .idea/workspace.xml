@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7760c3e-1e84-4d7e-b728-e952940a5476" name="Default Changelist" comment="" />
+    <list default="true" id="a7760c3e-1e84-4d7e-b728-e952940a5476" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LocadoraVeiculos/Main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LocadoraVeiculos/Veiculos/Caminhonete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LocadoraVeiculos/Veiculos/Moto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LocadoraVeiculos/Veiculos/Suv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Veiculos/Caminhonete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Veiculos/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Veiculos/Suv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LocadoraVeiculos/Tests/TesteVeiculos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LocadoraVeiculos/Tests/TesteVeiculos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LocadoraVeiculos/Veiculos/VeiculoComun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LocadoraVeiculos/Veiculos/VeiculoComun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/TesteVeiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/TesteVeiculos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Veiculos/VeiculoComun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veiculos/VeiculoComun.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +28,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WqkQRMSgf2In7uMGVZXucK1g6G" />
   <component name="ProjectViewState">
@@ -26,6 +44,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -35,8 +54,21 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
-    <configuration name="TesteVeiculos.TesteParaVerSeRealizaCalculoPorCentagem5Porcento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="LocadoraVeiculos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteVeiculos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LocadoraVeiculos" />
       <extension name="coverage">
         <pattern>
@@ -46,7 +78,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.TesteVeiculos" />
-      <option name="METHOD_NAME" value="TesteParaVerSeRealizaCalculoPorCentagem5Porcento" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteVeiculos.TesteParaVerSeCaminhoneteRealizaCalculoPorcentagem10Porcento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LocadoraVeiculos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TesteVeiculos" />
+      <option name="METHOD_NAME" value="TesteParaVerSeCaminhoneteRealizaCalculoPorcentagem10Porcento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteVeiculos.TesteParaVerSeCaminhoneteRealizaCalculoPorcentagem20Porcento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LocadoraVeiculos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TesteVeiculos" />
+      <option name="METHOD_NAME" value="TesteParaVerSeCaminhoneteRealizaCalculoPorcentagem20Porcento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteVeiculos.TesteParaVerSeSuvRealizaCalculoPorcentagem20Porcento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LocadoraVeiculos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TesteVeiculos" />
+      <option name="METHOD_NAME" value="TesteParaVerSeSuvRealizaCalculoPorcentagem20Porcento" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,7 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TesteVeiculos.TesteParaVerSeRealizaCalculoPorCentagem5Porcento" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TesteVeiculos" />
+        <item itemvalue="JUnit.TesteVeiculos.TesteParaVerSeCaminhoneteRealizaCalculoPorcentagem20Porcento" />
+        <item itemvalue="JUnit.TesteVeiculos.TesteParaVerSeCaminhoneteRealizaCalculoPorcentagem10Porcento" />
+        <item itemvalue="JUnit.TesteVeiculos.TesteParaVerSeSuvRealizaCalculoPorcentagem20Porcento" />
       </list>
     </recent_temporary>
   </component>
@@ -69,6 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579884495891</updated>
       <workItem from="1579884500907" duration="2703000" />
+      <workItem from="1580144526981" duration="9077000" />
     </task>
     <servers />
   </component>
@@ -76,26 +160,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1579886379606">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1580146248194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579886379606" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579887216274">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580146248194" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1580153957237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579887216274" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579887216274">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580153957237" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1580153957237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579887216274" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579887216274">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580153957237" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1580153957237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579887216274" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579887216274">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580153957237" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1580153957237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579887216274" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580153957237" />
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580144617883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580144617883" />
     <state x="387" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579884750067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

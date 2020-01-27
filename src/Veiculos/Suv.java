@@ -1,13 +1,12 @@
 package Veiculos;
 
-public class VeiculoComun extends Veiculo {
+public class Suv extends Veiculo {
 
-    private final Double precoveiculo = 40.00;
+    private final Double precoveiculo = 100.00;
+
     @Override
     public Double CalculaAluguel(Integer qtddias) {
-
         return (qtddias * precoveiculo)+(qtddias*precoveiculo)*Taxa(qtddias);
     }
-
-
 }
+
